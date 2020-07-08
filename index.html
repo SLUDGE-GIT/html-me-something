@@ -4,21 +4,30 @@
 
 <head>
     <title>Assignment #4</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
+<!--Let it be known, I've  learned that I dont like design or layout whatsoever lol-->
 
 <body>
     <header>
-        <h1>OH, THE PLACES YOU'LL GO</h1>
-        <p>Over the past few years I have traveled to and viewed some pretty amazing places.</p>
-        <p>Let me share some of the photos from my recent trips</p>
+        <h1 id="toptitle">OH, THE PLACES YOU'LL GO</h1>
+        <p class="toptext">Over the past few years I have traveled to and viewed some pretty amazing places.</p>
+        <p class="toptext">Let me share some of the photos from my recent trips</p>
     </header>
     <main>
+        </br>
         <section>
-            <h1> A R I Z O N A / U T A H </h1>
+            <h1 class="areas"> A R I Z O N A / U T A H </h1>
+            <div class = "row">
+                <div class = "column">
             <img src='images/arizona-utah/arizona.jpg' alt='arizona'>
-            <img src='images/arizona-utah/cannonville.jpg' alt='cannonville' width = 640 height = 428>
-            <h2>ANTELOPE CANYON</h2>
+            </div>
+            <div class = "column">
+            <img src='images/arizona-utah/cannonville.jpg' alt='cannonville' width=640 height=428>
+            </div>
+            </div>
+            <h2 class="areas">ANTELOPE CANYON</h2>
             <p>Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It
                 includes
                 two
@@ -26,41 +35,66 @@
                 Unfortunately, I didn't get to see the 'upper' part because we didnt get our passes in time; Here are a
                 couple photos I took of the 'Lower' Antelope Canyon.
             </p>
+            <div class = "row">
+            <div class ="column">
             <img src='images/arizona-utah/antelope-canyon-1.jpg' alt='antelope-canyon-1'>
-            <img src='images/arizona-utah/antelope-canyon-2.jpg' alt='antelope-canyon-2'>
+            </div> 
+            <div class = "column">
+                <img src='images/arizona-utah/antelope-canyon-2.jpg' alt='antelope-canyon-2'>
+            </div>        
+    </div>
             <p>My friends and I love to hike so this trip was extremely fun. Not only did we get to see part of the
                 Antelope Canyon, but we also got to drive and hike through many other places during this specific trip.
             </p>
+            </br>
             <p>Some of the places we hiked through Arizona / Utah were</p>
+
             <ol>
                 <li>Grand Canyon National Park</li>
                 <li>Monument Valley</li>
                 <li>Canyon de Chelly National Monument</li>
                 <li>Zion National Park</li>
             </ol>
+            </br>
         </section>
         <section>
-            <h1>I C E L A N D</h1>
+            <h1 class="areas">I C E L A N D</h1>
             <p>One of my favorite trips with my friends. This place was so beautiful.</p>
-            <p>We traveled around the Outer Ring Road in 3 days. Here are some of my favorite 'from the window' shots from the car or side of the road</p>
-            <img src = 'images/iceland/ice-1.jpg' alt = 'ice-1'width="640">
-            <img src = 'images/iceland/ice-4.jpg' alt = 'ice-4'width="640">
-            <img src = 'images/iceland/ice-8.jpg' alt = 'ice-8'width="640">
-            <img src = 'images/iceland/ice-5.jpg' alt = 'ice-5'width="640">
+            <p>We traveled around the Outer Ring Road in 3 days. Here are some of my favorite 'from the window' shots
+                from the car or side of the road</p>
+            <div class="container">
+                <div class="image">
+                    <img src='images/iceland/ice-1.jpg' alt='ice-1' width="640">
+                </div>
+                <div class="image">
+                    <img src='images/iceland/ice-4.jpg' alt='ice-4' width="640">
+                </div>
+                <div class="image">
+                    <img src='images/iceland/ice-8.jpg' alt='ice-8' width="640">
+                </div>
+                <div class="image">
+                    <img src='images/iceland/ice-5.jpg' alt='ice-5' width="640">
+                </div>
+            </div>
             <p>These landscapes in Iceland were so surreal to me. It truly felt like I was on some other planet</p>
-        <h2>BLACK SAND BEACH</h2>
-        <p>On the subject of 'surreal landscapes'... The Black Sand Beach in Iceland takes the cake. This was probably my absolute favorite places to see</p>
-     <img src = 'images/iceland/ice-6.jpg' alt = 'ice-6' width = 500 height = 500>
-     <img src = 'images/iceland/ice-7.jpg' alt = 'ice-7' width = 500 height = 500>   
-    <p>This place was so windy! We were getting pelted by the black sand. The wind was so strong we could almost fully lean back and stay upright. I'm so glad I have a good group of friends that love to experience nature as much as I do</p>
-    <video width="640" controls>
-        <source src ='images/iceland/beach.mp4' type='video/mp4'>
-            Sorry, your browser doesn't support embedded videos.
+            <h2 class="areas">BLACK SAND BEACH</h2>
+            <p>On the subject of 'surreal landscapes'... The Black Sand Beach in Iceland takes the cake. This was
+                probably my absolute favorite places to see</p>
+            <img src='images/iceland/ice-6.jpg' alt='ice-6' width=500 height=500>
+            <img src='images/iceland/ice-7.jpg' alt='ice-7' width=500 height=500>
+            
+            <p>This place was so windy! We were getting pelted by the black sand. The wind was so strong we could almost
+                fully lean back and stay upright. I'm so glad I have a good group of friends that love to experience
+                nature as much as I do</p>
+            <video id ="vid" width="640" controls>
+                <source src='images/iceland/beach.mp4' type='video/mp4'>
+                Sorry, your browser doesn't support embedded videos.
             </video>
-    </section>
+        </section>
     </main>
     <footer>
-    <p>&copy Kyle Florez 2020</p>
+        <p>I hope when everything goes back to normal I get to travel somewhere cool again</p>
+        <p>&copy Kyle Florez 2020</p>
     </footer>
 </body>
 
